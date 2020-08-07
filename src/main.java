@@ -32,7 +32,7 @@ public class main {
         //System Property SetUp
         System.setProperty(WEB_DRIVER_ID, WEB_DRIVER_PATH);
         driver = new ChromeDriver();
-        base_url = "https://www.instagram.com/uniform_bridge/";
+        base_url = "https://www.instagram.com/accounts/login/";
     }
     
 public void login() {
